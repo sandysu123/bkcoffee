@@ -1,0 +1,183 @@
+/* 1. GOOGLE FONT FAMILY:
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Bowlby One', cursive;
+
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One|Open+Sans');
+
+
+*/
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One|Open+Sans');
+
+
+/* 2. THIS IS THE CODE FOR OUR BACKGROUND IMAGE */
+
+    
+body, html {
+    height: 99.18%;
+    margin: 0;
+    padding: 0;
+    background-color: #BFC9D2;
+    overflow: hidden;
+}
+
+
+.bg { 
+    background-image: url("../images/bkcoffeetitle1.jpg");
+    height: 99.18%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+
+.fronttitle {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    top: 110px;
+    
+    
+}
+
+.fronttitle1 {
+ 
+font-family: 'Bowlby One', cursive;
+font-size: 70px;
+color: #F6F7F9;
+}
+
+.fronttitle2 { 
+font-family: 'Bowlby One', cursive;
+ color: #F6F7F9;
+ font-size: 40px; 
+ position: relative;
+    top: -210px; }
+    
+/* 3. This is our NAV bar for front page ONLY */
+
+.nav {
+    
+font-family: 'Bowlby One', cursive;
+ color: #080808;
+ font-size: 30px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ align-content: flex-start;
+ position: relative;
+margin: 10px;
+    
+    
+    
+}
+
+
+a {
+     text-decoration: none;
+     color: #080808;
+}
+
+a:hover { text-decoration: none;
+color: #F6F7F9;
+
+}
+
+
+/* 4. This is where the stylesheet for our Coffee Pages begin */ 
+
+
+.coffeepagetitle { 
+    
+    font-family: 'Bowlby One', cursive;
+    color: #080808;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    top:-20px;
+    padding: 10px;
+}
+
+/* 5. THIS IS OUR COFFEE NAV BAR */
+
+.coffeepagetopsection {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 95px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #080808;
+    padding: 10px;
+}
+
+
+.coffeemainheader {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    padding: 0px;
+    color: #080808;
+    }
+    
+
+/* 
+
+
+.coffeemainheader img{
+    width: 300px } 
+
+RF code for image header
+
+*/  
+    
+
+
+
+.coffeemain {
+	display:flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	top: 80px;
+	color: #080808;
+	width: 75%;
+	margin: auto;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+}
+
+.coffeemainbody { display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+position: relative;
+top: -20px;
+color: #080808;
+}
+
+
+.coffeemainbody img { width: 300px; } 
+
+.coffeemainbodycontent {
+	
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px;
+color: #080808;
+	
+	
+}
+
+.coffeemainbodycontentinfo { padding: 20px; color: #080808; }
+
